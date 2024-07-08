@@ -14,6 +14,8 @@ Welcome to my Summer Internship 2024 repository! This repository contains all th
 - [Technologies Used](#technologies-used)
 - [Week1](#week-1)
 - [Week2](#week-2)
+- [Week3](#week-3)
+- [Week4](#week-4)
 
 
 ## Introduction
@@ -88,4 +90,15 @@ This repository documents the progress and outcomes of my summer internship in 2
     ```bash
         git checkout <branch-name>
     ```
+
+- **Task: Display a column from databse to UI**
+    - **Description:** Implemented functionality to display a specific column from the database onto the user interface (UI). This involved configuring the UI to correctly fetch and present data from the PostgreSQL database using pgAdmin.
+
+    - **What I Learned:**
+
+        - UI Display: I gained practical knowledge on how to integrate and display database columns onto the UI effectively.
+        - Tool Utilization: Became proficient in utilizing pgAdmin for managing PostgreSQL databases, including configuring and accessing specific columns for display purposes.
+
+### Week-3
+- 
 
