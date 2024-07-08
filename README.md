@@ -37,10 +37,12 @@ This repository documents the progress and outcomes of my summer internship in 2
 
 ## Technologies Used
 
-- Programming Languages: HTML, CSS, JavaScript
-- Frameworks: Bootstrap, jQuery, Sequelize
-- Tools: VScode, Git
-- Platforms: PostgreSQL, AWS
+- Programming Languages:  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white), 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white), 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
+- Frameworks: ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white), ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=flat&logo=jquery&logoColor=white), ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=flat&logo=Sequelize&logoColor=white)
+- Tools: VScode, ![GIT](https://img.shields.io/badge/Git-fc6d26?style=flat&logo=git&logoColor=white)
+- Platforms: ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white), ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white)
 
 
 ## Start Of Internship 
@@ -100,5 +102,28 @@ This repository documents the progress and outcomes of my summer internship in 2
         - Tool Utilization: Became proficient in utilizing pgAdmin for managing PostgreSQL databases, including configuring and accessing specific columns for display purposes.
 
 ### Week-3
-- 
+
+- **Task: Enhancing Actions and Functionality in Admin > Callbox**
+
+    - **Description:** 
+        - Modified the admin interface for managing callboxes to ensure consistent functionality across active, inactive, and deleted filters. 
+        - Specifically, added actions such as edit and see live location to the deleted filter and implemented logic to hide the save button when editing a deleted callbox using jQuery.
+
+    - **Actions Taken:**
+
+        - **Updated Filters:** Enhanced the deleted filter to include actions like edit and see live location, previously available only in the active filter.
+        - **jQuery Implementation:** Utilized jQuery to dynamically hide the save button when editing a callbox marked as deleted, ensuring consistent user experience and preventing unintended changes.
+
+
+- **Task:  Implementing Select2 for Region Selection**
+
+    - **Description:** 
+        - Integrated Select2 functionality across project pages where region selection is required to filter callboxes. 
+        - Select2 enhances user experience by providing a searchable dropdown for selecting regions, simplifying the process of filtering callboxes based on regions.
+
+    - **Actions Taken:**
+
+        - **Learning Select2:** Studied and understood the functionality of Select2 to facilitate region selection with enhanced search capabilities within dropdowns.
+        - **Implementation:** Implemented Select2 across project pages to replace standard dropdowns with searchable ones for region selection. This enhancement aimed to improve usability and efficiency in filtering callboxes by regions.
+
 
