@@ -127,3 +127,52 @@ This repository documents the progress and outcomes of my summer internship in 2
         - **Implementation:** Implemented Select2 across project pages to replace standard dropdowns with searchable ones for region selection. This enhancement aimed to improve usability and efficiency in filtering callboxes by regions.
 
 
+### Week-4
+
+- **Task: Implementing Select2 for ANI Selection**
+
+    - **Description:**
+        -  Integrated Select2 functionality to enhance ANI (Unique ID for Call Box) selection across the project. When a specific region is selected, all ANIs associated with call boxes in that region are displayed in the Select2 dropdown. 
+        - This allows users to search for ANIs or select them from the dropdown menu, streamlining the selection process.
+
+    - **Actions Taken:**
+
+        - **Select2 Implementation:** Implemented Select2 for a searchable interface for ANI selection.
+        - **User Interface Enhancement:** Enhanced user interaction by providing a user-friendly method to search and select ANIs, thereby improving overall usability and efficiency.
+
+
+- **Task: Calculating Averages for Voice Calls and Call Time**
+
+    **1. Average Voice Calls Per Day:**
+
+    - Formula: 
+    ```
+    Avg Voice Call per day = Total Call Voice / Number of days in month
+    ```
+    - This calculation provides the average number of voice calls made each day.
+
+    **2. Average Voice Call Time Per Day:**
+    - Formula: 
+    ```
+    Avg Voice Call Time per day = Total Call Time in sec / Number of days in month
+    ```
+    - Steps:
+    1. Convert call time period into seconds.
+    2. Apply the formula to get the average call time per day in seconds.
+    3. Convert the result from seconds to minutes for easier interpretation.
+
+
+    **3. Average Voice Calls Per Call Box:**
+    - Formula: 
+    ```
+    Avg Voice Call Per Call Box = Total Call Voice / Total Call Boxes
+    ```
+    - This calculation provides the average number of voice calls per call box.
+
+
+    **4. Average Voice Call Time Per Call Box:**
+    - Formula: 
+    ```
+    Avg Voice Call Time per Call Box = Total Call Time in seconds / Total Call Boxes
+    ```
+    - This calculation provides the average call time per call box in seconds.
