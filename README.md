@@ -41,7 +41,7 @@ This repository documents the progress and outcomes of my summer internship in 2
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white), 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
 - Frameworks: ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat&logo=bootstrap&logoColor=white), ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=flat&logo=jquery&logoColor=white), ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=flat&logo=Sequelize&logoColor=white)
-- Tools:  <span style="background-color:#006fb0; border-radius:5px;"><img src="./vscode.png" width="15px"/> VS code</span>, ![GIT](https://img.shields.io/badge/Git-fc6d26?style=flat&logo=git&logoColor=white)
+- Tools:  <img src="./vscode.png" width="15px"/> VScode, ![GIT](https://img.shields.io/badge/Git-fc6d26?style=flat&logo=git&logoColor=white)
 - Platforms: ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white), ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white)
 
 
@@ -93,13 +93,21 @@ This repository documents the progress and outcomes of my summer internship in 2
         git checkout <branch-name>
     ```
 
-- **Task: Display a column from databse to UI**
-    - **Description:** Implemented functionality to display a specific column from the database onto the user interface (UI). This involved configuring the UI to correctly fetch and present data from the PostgreSQL database using pgAdmin.
+- **Task: Adding and Managing a New Attribute in the Database**
 
-    - **What I Learned:**
+    - **Description:** 
+        - Learned that How we can add  a new column (attribute) to the database in Admin > Region section. This involved updating the database schema, providing options to add and edit the new attribute, and ensuring it is displayed in the user interface.
 
-        - UI Display: I gained practical knowledge on how to integrate and display database columns onto the UI effectively.
-        - Tool Utilization: Became proficient in utilizing pgAdmin for managing PostgreSQL databases, including configuring and accessing specific columns for display purposes.
+    - **Action Taken:**
+        - **Database Schema Update:**
+        Added a new column (attribute) to the existing database table that stores information of added tuple.
+
+        - **Adding New Attribute:**
+        Updated the admin interface to include an option for adding the new attribute when creating a new region.
+
+        - **Displaying the Attribute:**
+        Updated the UI to display the newly added attribute in the Admin > Region section.
+        Verified that the new attribute is correctly shown in the region list and details view.
 
 ### Week-3
 
